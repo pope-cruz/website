@@ -1,0 +1,52 @@
+---
+title: Building software primarily for yourself
+date: 2026-07-22
+summary: Personal software can optimize for continuity, specificity, and a user you can observe closely.
+description: An essay about what changes when the builder is also the main user.
+published: true
+tags: [software, tools]
+readingTime: 5 min read
+---
+
+Software built primarily for yourself has an unusual advantage: the distance between observation and implementation can be nearly zero. You do not need a survey to notice that a button is in the wrong place. You can feel the interruption, change the interface, and find out whether the change helped.
+
+That does not make the work easy. It changes which mistakes are most likely.
+
+## Specificity is available
+
+General-purpose products have to accommodate people with different habits, constraints, and definitions of success. Personal software can be exact. It can use your vocabulary, assume your devices, and fit the sequence in which you actually do the work.
+
+This specificity is not a temporary compromise before the product becomes “real.” It may be the whole advantage.
+
+> A tool can be narrow because the problem it understands is narrow.
+
+The danger is confusing specificity with indulgence. A feature is not justified simply because the builder enjoys building it. The close feedback loop should make unnecessary features easier to detect, not easier to excuse.
+
+## The user is observable
+
+When I build a tool for myself, usage research becomes a record of interruptions. Where do I leave the tool? What do I keep doing somewhere else? Which fields are consistently blank? Which shortcut do I forget exists?
+
+These are useful signals because they describe behavior rather than preference. The strongest one is often abandonment. If I stop using something I built, I cannot blame discoverability or onboarding. I have to ask whether the tool deserved a place in the routine.
+
+## Continuity matters more than scale
+
+A personal tool does not need a growth loop, but it does need a maintenance story. The best version may be the one that remains understandable six months later.
+
+That pushes the architecture toward ordinary materials:
+
+- files that can be opened without the application
+- formats with existing tools and long histories
+- dependencies that remove real work
+- defaults that keep the common path short
+
+The point is not to avoid technology. It is to spend complexity on the part of the tool that is specific to the problem.
+
+## A different success condition
+
+The success of personal software is not that other people eventually use it. Sometimes they will, and that can be valuable. But the first test is simpler: did the tool change the work it was built around?
+
+If a tiny application helps make one decision more clearly each week, it may already be complete. If a polished application creates another thing to maintain without changing the work, it is not saved by its finish.
+
+That is the useful pressure of building for yourself. The user is always available, and so is the evidence.
+
+[^1]: “Personal software” here means software built around a specific person or small group. It does not have to remain private.

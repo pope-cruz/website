@@ -1,0 +1,50 @@
+---
+title: Weeklog
+date: 2026-07-22
+summary: A small weekly log for tracking what changed, what shipped, and what should happen next.
+published: true
+tags: [web, tools]
+status: building
+started: 2026-07-08
+featured: true
+---
+
+<ProjectStatus status="building">
+The core writing loop works. I am using it long enough to find which fields are actually useful.
+</ProjectStatus>
+
+## Why it exists
+
+Daily notes are too granular for reviewing a project, while monthly reviews arrive too late to steer it. Weeklog sits between them. It asks for a small record of decisions, progress, and unresolved questions once a week.
+
+## Current shape
+
+Each entry is a plain text file with four prompts:
+
+1. What changed?
+2. What did I learn?
+3. What is blocked?
+4. What happens next?
+
+The format is intentionally boring. The experiment is about whether a reliable review rhythm improves the work, not whether the logging interface can become a product.
+
+## Build log
+
+### 2026-07-22
+
+Moved entries to Markdown and removed a custom editor. A regular file is easier to search, diff, and keep after the application changes.
+
+### 2026-07-15
+
+Reduced the template from seven prompts to four. The longer version encouraged complete sentences when a short fact would have been more useful.
+
+<Callout title="Open question">
+Should a weekly log record time spent, or does that number distort the review? I am leaving it out until there is a concrete decision it would improve.
+</Callout>
+
+## Next
+
+- [x] Settle the file format
+- [x] Add a weekly index
+- [ ] Test the review flow for four weeks
+- [ ] Decide whether reminders are necessary

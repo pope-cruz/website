@@ -1,0 +1,36 @@
+{
+  "name": "pope-cruz-notebook",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "latest",
+    "@fontsource-variable/lora": "latest",
+    "gray-matter": "latest",
+    "next": "latest",
+    "next-mdx-remote": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "reading-time": "latest",
+    "rehype-autolink-headings": "latest",
+    "rehype-pretty-code": "latest",
+    "rehype-slug": "latest",
+    "remark-gfm": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.10",
+    "sharp": "^0.35.0"
+  }
+}
