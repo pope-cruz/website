@@ -12,14 +12,15 @@ export default function Icon() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        background: "#20201e",
-        color: "#f7f7f4",
-        fontFamily: "monospace",
+        borderRadius: 7,
+        background: "#1e211e",
+        color: "#f6f3ec",
+        fontFamily: "Arial, sans-serif",
         fontSize: 18,
-        fontWeight: 600,
+        fontWeight: 650,
       }}
     >
-      p
+      P
     </div>,
     size,
   );

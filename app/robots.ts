@@ -1,9 +1,11 @@
 import type { MetadataRoute } from "next";
-import { absoluteUrl } from "@/lib/format";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: { userAgent: "*", allow: "/" },
-    sitemap: absoluteUrl("/sitemap.xml"),
+    rules: {
+      userAgent: "*",
+      allow: "/",
+    },
+    sitemap: "https://pope.dev/sitemap.xml",
   };
 }

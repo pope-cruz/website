@@ -1,5 +1,5 @@
 {
-  "name": "pope-cruz-notebook",
+  "name": "pope-dev",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@fontsource/ibm-plex-mono": "latest",
-    "@fontsource-variable/lora": "latest",
-    "gray-matter": "latest",
+    "@fontsource-variable/geist": "^5.3.0",
     "next": "latest",
-    "next-mdx-remote": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "reading-time": "latest",
-    "rehype-autolink-headings": "latest",
-    "rehype-pretty-code": "latest",
-    "rehype-slug": "latest",
-    "remark-gfm": "latest",
-    "zod": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
