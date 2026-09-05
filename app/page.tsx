@@ -7,8 +7,6 @@ export default async function HomePage() {
   return (
     <main id="main-content" className="page-shell">
       <article className="intro-card" aria-labelledby="page-title">
-        <div className="intro-rule" aria-hidden="true" />
-
         <header className="intro-heading">
           <p className="intro-kicker">New York · {new Date().getFullYear()}</p>
           <KineticName name={intro.title} />

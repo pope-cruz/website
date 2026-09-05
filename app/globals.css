@@ -4,7 +4,6 @@
   --ink: #171917;
   --muted: #6a6f69;
   --accent: #246b4e;
-  --rule: #c9cbc3;
   --selection: #bfd9ca;
   --font-sans: var(--font-geist), "Helvetica Neue", Arial, sans-serif;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -90,14 +89,6 @@ a:focus-visible {
   margin: 0 auto;
 }
 
-.intro-rule {
-  grid-column: 1 / -1;
-  height: 1px;
-  background: var(--rule);
-  transform-origin: left;
-  animation: rule-in 900ms var(--ease-out) both;
-}
-
 .intro-heading {
   min-width: 0;
 }
@@ -109,7 +100,6 @@ a:focus-visible {
   font-weight: 600;
   letter-spacing: 0.11em;
   line-height: 1;
-  text-transform: uppercase;
   animation: enter 700ms 120ms var(--ease-out) both;
 }
 
@@ -198,12 +188,6 @@ a:focus-visible {
   }
 }
 
-@keyframes rule-in {
-  from {
-    transform: scaleX(0);
-  }
-}
-
 @media (max-width: 50rem) {
   .page-shell {
     align-items: start;
@@ -215,7 +199,6 @@ a:focus-visible {
     row-gap: 2.6rem;
   }
 
-  .intro-rule,
   .intro-links {
     grid-column: 1;
   }

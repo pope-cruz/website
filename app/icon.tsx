@@ -9,19 +9,10 @@ export default function Icon() {
       style={{
         width: "100%",
         height: "100%",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        borderRadius: 7,
-        background: "#1e211e",
-        color: "#f6f3ec",
-        fontFamily: "Arial, sans-serif",
-        fontSize: 18,
-        fontWeight: 650,
+        borderRadius: "50%",
+        background: "#000000",
       }}
-    >
-      P
-    </div>,
+    />,
     size,
   );
 }

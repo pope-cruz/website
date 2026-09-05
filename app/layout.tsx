@@ -13,7 +13,7 @@ const geist = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL("https://pope.dev"),
   title: "Pope Cruz",
-  description: "Computer science student at NYU interested in consumer software, AI products, GTM, and community-building.",
+  description: "Computer science student at NYU interested in GTM, AI products, and community-building.",
   alternates: {
     canonical: "/",
   },
