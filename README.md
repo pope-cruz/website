@@ -17,6 +17,12 @@ The page intentionally supports a small Markdown subset: one top-level heading, 
 
 The public résumé is served from `public/resume.pdf`. Next.js adds `X-Robots-Tag: noindex, nofollow, noarchive` to that asset in `next.config.ts`.
 
+### Blog boilerplate
+
+`/blog` is a minimal placeholder in `app/blog/page.tsx`. It is not linked from the homepage, is excluded from the sitemap, and requests that search engines do not index it.
+
+When you are ready to write, replace the placeholder with posts, remove the page's `robots` override, add `/blog` to `app/sitemap.ts`, and add a Blog link to `content/intro.md`.
+
 ## Verify
 
 ```bash

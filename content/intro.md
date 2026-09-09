@@ -4,7 +4,8 @@ I’m a computer science student at NYU, interested in the space where GTM, AI p
 
 Right now, I’m building community at [Tech@NYU](https://techatnyu.org) and always looking for better ways to bring people together.
 
-- [GitHub](https://github.com/pope-cruz)
 - [LinkedIn](https://www.linkedin.com/in/popecruz)
 - [X](https://x.com/popedotdev)
+- [Luma](https://luma.com/user/pope)
+- [GitHub](https://github.com/pope-cruz)
 - pgc9002 [at] nyu [dot] edu
