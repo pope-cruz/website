@@ -88,7 +88,7 @@ a:focus-visible {
     "heading body"
     "links body";
   column-gap: clamp(3rem, 8vw, 9rem);
-  row-gap: clamp(2.4rem, 5vw, 4.5rem);
+  row-gap: clamp(2rem, 3vw, 2.75rem);
   width: min(100%, 82rem);
   margin: 0 auto;
 }
@@ -159,7 +159,7 @@ a:focus-visible {
 .intro-links {
   display: flex;
   grid-area: links;
-  align-self: end;
+  align-self: start;
   flex-wrap: wrap;
   gap: 0.7rem 1.45rem;
   animation: enter 700ms 300ms var(--ease-out) both;
