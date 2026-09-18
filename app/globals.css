@@ -83,13 +83,18 @@ a:focus-visible {
 .intro-card {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(18rem, 0.75fr);
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "heading body"
+    "links body";
   column-gap: clamp(3rem, 8vw, 9rem);
-  row-gap: clamp(2.4rem, 5vw, 4.5rem);
+  row-gap: clamp(2rem, 3vw, 2.75rem);
   width: min(100%, 82rem);
   margin: 0 auto;
 }
 
 .intro-heading {
+  grid-area: heading;
   min-width: 0;
 }
 
@@ -134,9 +139,9 @@ a:focus-visible {
 }
 
 .intro-body {
-  align-self: end;
+  grid-area: body;
+  align-self: start;
   max-width: 32rem;
-  padding-bottom: 0.25rem;
   animation: enter 750ms 220ms var(--ease-out) both;
 }
 
@@ -153,7 +158,8 @@ a:focus-visible {
 
 .intro-links {
   display: flex;
-  grid-column: 1;
+  grid-area: links;
+  align-self: start;
   flex-wrap: wrap;
   gap: 0.7rem 1.45rem;
   animation: enter 700ms 300ms var(--ease-out) both;
@@ -219,11 +225,12 @@ a:focus-visible {
 
   .intro-card {
     grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-template-areas:
+      "heading"
+      "body"
+      "links";
     row-gap: 2.6rem;
-  }
-
-  .intro-links {
-    grid-column: 1;
   }
 
   .kinetic-name {
