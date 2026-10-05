@@ -3,7 +3,7 @@ export const siteData = {
   description: "Computer science student at NYU.",
   interests: "GTM, AI products, and community-building.",
   links: {
-    resume: "/resume.pdf",
+    resume: "/Pope_Cruz_Resume.pdf",
     github: "https://github.com/pope-cruz",
     linkedin: "https://www.linkedin.com/in/popecruz",
     x: "https://x.com/popedotdev",
