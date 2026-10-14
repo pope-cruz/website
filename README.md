@@ -15,8 +15,6 @@ Edit `content/intro.md`. The first heading becomes the display name, regular Mar
 
 The page intentionally supports a small Markdown subset: one top-level heading, paragraphs, inline links, and one link list. This keeps the site static and dependency-free while leaving the writing in a portable format.
 
-The public résumé is served from `public/resume.pdf`. Next.js adds `X-Robots-Tag: noindex, nofollow, noarchive` to that asset in `next.config.ts`.
-
 ### Blog boilerplate
 
 `/blog` is a minimal placeholder in `app/blog/page.tsx`. It is not linked from the homepage, is excluded from the sitemap, and requests that search engines do not index it.
