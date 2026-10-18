@@ -1,7 +1,7 @@
 export const siteData = {
   name: "Pope Cruz",
   description: "CS student @ NYU.",
-  interests: "AI products, growth, and community building.",
+  interests: "AI products, growth, operations, and community building.",
   links: {
     github: "https://github.com/pope-cruz",
     linkedin: "https://www.linkedin.com/in/popecruz",

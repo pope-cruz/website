@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Pope Cruz, CS student @ NYU working across AI products, growth, and community building.";
+export const alt = "Pope Cruz, CS student @ NYU working across AI products, growth, operations, and community building.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -37,7 +37,7 @@ export default function OpenGraphImage() {
           CS student @ NYU
         </div>
         <div style={{ display: "flex", marginTop: 12, color: "#59615b", fontSize: 30 }}>
-          AI products · Growth · Community building
+          AI products · Growth · Operations · Community building
         </div>
       </div>
 
