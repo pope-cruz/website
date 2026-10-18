@@ -12,8 +12,8 @@ const geist = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pope.dev"),
-  title: "Pope Cruz",
-  description: "Computer science student at NYU interested in GTM, AI products, and community-building.",
+  title: "Pope Cruz · CS student @ NYU",
+  description: "CS student @ NYU working across AI products, growth, and community building.",
   alternates: {
     canonical: "/",
   },
@@ -25,21 +25,21 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://pope.dev",
     siteName: "Pope Cruz",
-    title: "Pope Cruz",
-    description: "Computer science student at NYU.",
+    title: "Pope Cruz · CS student @ NYU",
+    description: "CS student @ NYU working across AI products, growth, and community building.",
     images: [
       {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Pope Cruz, computer science student at NYU.",
+        alt: "Pope Cruz, CS student @ NYU working across AI products, growth, and community building.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pope Cruz",
-    description: "Computer science student at NYU.",
+    title: "Pope Cruz · CS student @ NYU",
+    description: "CS student @ NYU working across AI products, growth, and community building.",
     images: ["/opengraph-image"],
   },
 };
