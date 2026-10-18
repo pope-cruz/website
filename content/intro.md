@@ -1,6 +1,6 @@
 # Pope Cruz
 
-I’m a computer science student at NYU working across AI products, growth, and community building.
+I’m a computer science student at NYU working across AI products, growth, operations, and community building.
 
 At [Tech@NYU](https://techatnyu.org), I run events that help students meet other builders.
 
